@@ -11,6 +11,9 @@ public class Main {
 	System.out.println( decodeString.decodeString("3[a2[c]]"));
 		LongestSubstringWithoutRepeatingCharacters obj=new  LongestSubstringWithoutRepeatingCharacters();
 	 System.out.println(obj.lengthOfLongestSubstring("abcabcbb"));
+	 ThreeSum s=new ThreeSum();
+	 s.threeSum(null);
+	 
 	}
 
 }
